@@ -1,2 +1,2 @@
 # ProyectoFinal-Modulo_7
-Modulo_6 - Interactuando con Bases de Datos
+Modulo_7 - Interactuando con Bases de Datos
