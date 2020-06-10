@@ -1,0 +1,13 @@
+1.- Instalar Dependencias
+	npm i -S express
+	npm i -S express-session
+	npm i -S body-parser	
+	npm i -S mongoose
+	npm i -D nodemon 
+
+2- Correr los servicios de mongod, mongo y node ( server/index.js )
+
+3- Ingresar con los datos que aparecen en la pagina principal
+
+
+

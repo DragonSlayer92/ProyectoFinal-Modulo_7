@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Rodolfo Puc">
+    <meta name="Description" content="Agenda Node">
+    <meta name="keywords" content="html,css,javascript,mongodb,node">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script|Neucha">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Inicio de sesión</title>
+  </head>
+
+  <body onpageshow="verificarExistenciaDeUsuarios()">
+    <div class="loginContainer">
+      <div class="loginTitle">Inicio de Sesión</div>
+      <div class="fields-Container">
+        <input type="text" id="user" placeholder="Usuario...">
+        <input type="password" id="pass" placeholder="Contraseña...">
+        <button id="login" class="loginButton" onclick="validarUsuario()">Ingresar</button>
+      </div>
+      <footer>
+        <center>
+          <b>User:</b> rodolfopuc@gmail.com <br>
+          <b>User:</b> admin@admin.com <br><br>
+          <b>Password:</b> admin
+          <hr>
+          &copy; 2020 By Rodolfo Puc
+        </center>
+      </footer>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
